@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 650">
+<defs>
+ <linearGradient id="store" x1="0" x2="1"><stop stop-color="#0f5b3d"/><stop offset="1" stop-color="#23764f"/></linearGradient>
+ <linearGradient id="man" x1="0" x2="1"><stop stop-color="#174f3a"/><stop offset="1" stop-color="#2e7a57"/></linearGradient>
+ <linearGradient id="woman" x1="0" x2="1"><stop stop-color="#df7640"/><stop offset="1" stop-color="#f09a62"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="15" stdDeviation="14" flood-color="#294635" flood-opacity=".16"/></filter>
+</defs>
+
+<!-- ground -->
+<ellipse cx="475" cy="570" rx="355" ry="36" fill="#c7d8c8"/>
+
+<!-- shop -->
+<g filter="url(#shadow)">
+ <rect x="165" y="360" width="620" height="180" rx="22" fill="#fffdf8"/>
+ <path d="M138 360h674l-48-100H188z" fill="url(#store)"/>
+ <path d="M165 360h620l-25-53H190z" fill="#c5e86a"/>
+ <rect x="207" y="402" width="172" height="103" rx="12" fill="#e8f0e5"/>
+ <path d="M232 476l35-38 30 22 45-56" fill="none" stroke="#23764f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+ <circle cx="313" cy="404" r="9" fill="#c5e86a"/>
+ <rect x="420" y="405" width="320" height="32" rx="9" fill="#edf1eb"/>
+ <rect x="420" y="455" width="245" height="20" rx="8" fill="#edf1eb"/>
+ <rect x="420" y="489" width="150" height="15" rx="7" fill="#f3f5f1"/>
+</g>
+
+<!-- man -->
+<g filter="url(#shadow)">
+ <circle cx="430" cy="180" r="58" fill="#8b5a42"/>
+ <path d="M370 178q4-84 106-58 39 13 32 66-31-38-106-12z" fill="#1d2924"/>
+ <path d="M345 405q13-185 92-185 86 0 105 185z" fill="url(#man)"/>
+ <path d="M430 220l30 61 31-61" fill="#fffdf8"/>
+ <path d="M385 315l-92 75" stroke="#8b5a42" stroke-width="27" stroke-linecap="round"/>
+ <path d="M518 318l73 65" stroke="#8b5a42" stroke-width="27" stroke-linecap="round"/>
+</g>
+
+<!-- woman -->
+<g filter="url(#shadow)">
+ <circle cx="640" cy="235" r="51" fill="#a86e50"/>
+ <path d="M585 231q2-84 91-62 43 12 37 83-29-48-108-18z" fill="#2b2421"/>
+ <path d="M567 430q9-178 76-178 74 0 97 178z" fill="url(#woman)"/>
+ <path d="M641 254l-31 62 46 0" fill="#fffdf8"/>
+ <path d="M606 340l-83 55" stroke="#a86e50" stroke-width="24" stroke-linecap="round"/>
+ <path d="M706 342l72 54" stroke="#a86e50" stroke-width="24" stroke-linecap="round"/>
+</g>
+
+<!-- planning board / financing document -->
+<g filter="url(#shadow)">
+ <rect x="520" y="70" width="188" height="138" rx="17" fill="#fffdf8" stroke="#d9e2d8" stroke-width="5"/>
+ <text x="543" y="101" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#607069">RENCANA USAHA</text>
+ <rect x="543" y="116" width="82" height="8" rx="4" fill="#dce6dc"/>
+ <rect x="543" y="133" width="120" height="8" rx="4" fill="#e9eee8"/>
+ <path d="M544 185l33-31 25 18 38-49" fill="none" stroke="#0f5b3d" stroke-width="8" stroke-linecap="round"/>
+ <path d="M625 123v35h-34" fill="none" stroke="#0f5b3d" stroke-width="7"/>
+ <circle cx="675" cy="102" r="13" fill="#c5e86a"/>
+ <path d="M668 102l5 5 10-12" fill="none" stroke="#0f5b3d" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- loan document -->
+<g transform="translate(105 165) rotate(-8)" filter="url(#shadow)">
+ <rect width="145" height="180" rx="15" fill="#fffdf8"/>
+ <rect x="18" y="22" width="52" height="9" rx="4" fill="#0f5b3d"/>
+ <rect x="18" y="46" width="92" height="7" rx="3" fill="#dfe7df"/>
+ <rect x="18" y="62" width="75" height="7" rx="3" fill="#e9eee8"/>
+ <rect x="18" y="92" width="105" height="48" rx="9" fill="#edf4e7"/>
+ <text x="30" y="114" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#0f5b3d">KREDIT</text>
+ <text x="30" y="132" font-family="Arial,sans-serif" font-size="13" font-weight="900" fill="#10251d">SIAP</text>
+ <circle cx="110" cy="30" r="9" fill="#c5e86a"/>
+</g>
+
+<!-- coffee / product -->
+<g>
+ <rect x="250" y="516" width="92" height="13" rx="6" fill="#e7c5a7"/>
+ <circle cx="330" cy="507" r="18" fill="#fffdf8" stroke="#c7b5a3" stroke-width="5"/>
+</g>
+</svg>
